@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */; };
+		BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */; };
+		BEA0136F1E7B0D1B0034F6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */; };
+		BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEA013701E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld */; };
+		BEA013741E7B0D1B0034F6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA013731E7B0D1B0034F6FB /* Assets.xcassets */; };
+		BEA013771E7B0D1B0034F6FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA013751E7B0D1B0034F6FB /* LaunchScreen.storyboard */; };
+		BEA013821E7B0D1C0034F6FB /* Groovy_GrowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013811E7B0D1C0034F6FB /* Groovy_GrowTests.swift */; };
+		BEA0138D1E7B0D1C0034F6FB /* Groovy_GrowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0138C1E7B0D1C0034F6FB /* Groovy_GrowUITests.swift */; };
+		BEA0139C1E7B0EE70034F6FB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0139B1E7B0EE70034F6FB /* MapKit.framework */; };
+		BEA0139E1E7B0EEF0034F6FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */; };
+		BEA013A01E7B0EF50034F6FB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0139F1E7B0EF50034F6FB /* CoreData.framework */; };
+		BEA013A21E7B16210034F6FB /* annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013A11E7B16210034F6FB /* annotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA0137E1E7B0D1C0034F6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA0135E1E7B0D1B0034F6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA013651E7B0D1B0034F6FB;
+			remoteInfo = "Groovy Grow";
+		};
+		BEA013891E7B0D1C0034F6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA0135E1E7B0D1B0034F6FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA013651E7B0D1B0034F6FB;
+			remoteInfo = "Groovy Grow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA013661E7B0D1B0034F6FB /* Groovy Grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Groovy Grow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA0136E1E7B0D1B0034F6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA013711E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Groovy_Grow.xcdatamodel; sourceTree = "<group>"; };
+		BEA013731E7B0D1B0034F6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA013761E7B0D1B0034F6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA013781E7B0D1B0034F6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA0137D1E7B0D1C0034F6FB /* Groovy GrowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Groovy GrowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA013811E7B0D1C0034F6FB /* Groovy_GrowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groovy_GrowTests.swift; sourceTree = "<group>"; };
+		BEA013831E7B0D1C0034F6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA013881E7B0D1C0034F6FB /* Groovy GrowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Groovy GrowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA0138C1E7B0D1C0034F6FB /* Groovy_GrowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groovy_GrowUITests.swift; sourceTree = "<group>"; };
+		BEA0138E1E7B0D1C0034F6FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA0139B1E7B0EE70034F6FB /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BEA0139F1E7B0EF50034F6FB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BEA013A11E7B16210034F6FB /* annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA013631E7B0D1B0034F6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA013A01E7B0EF50034F6FB /* CoreData.framework in Frameworks */,
+				BEA0139E1E7B0EEF0034F6FB /* CoreLocation.framework in Frameworks */,
+				BEA0139C1E7B0EE70034F6FB /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA0137A1E7B0D1C0034F6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA013851E7B0D1C0034F6FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA0135D1E7B0D1B0034F6FB = {
+			isa = PBXGroup;
+			children = (
+				BEA013681E7B0D1B0034F6FB /* Groovy Grow */,
+				BEA013801E7B0D1C0034F6FB /* Groovy GrowTests */,
+				BEA0138B1E7B0D1C0034F6FB /* Groovy GrowUITests */,
+				BEA013671E7B0D1B0034F6FB /* Products */,
+				BEA0139A1E7B0EE70034F6FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA013671E7B0D1B0034F6FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA013661E7B0D1B0034F6FB /* Groovy Grow.app */,
+				BEA0137D1E7B0D1C0034F6FB /* Groovy GrowTests.xctest */,
+				BEA013881E7B0D1C0034F6FB /* Groovy GrowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA013681E7B0D1B0034F6FB /* Groovy Grow */ = {
+			isa = PBXGroup;
+			children = (
+				BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */,
+				BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */,
+				BEA013A11E7B16210034F6FB /* annotation.swift */,
+				BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */,
+				BEA013731E7B0D1B0034F6FB /* Assets.xcassets */,
+				BEA013751E7B0D1B0034F6FB /* LaunchScreen.storyboard */,
+				BEA013781E7B0D1B0034F6FB /* Info.plist */,
+				BEA013701E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld */,
+			);
+			path = "Groovy Grow";
+			sourceTree = "<group>";
+		};
+		BEA013801E7B0D1C0034F6FB /* Groovy GrowTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA013811E7B0D1C0034F6FB /* Groovy_GrowTests.swift */,
+				BEA013831E7B0D1C0034F6FB /* Info.plist */,
+			);
+			path = "Groovy GrowTests";
+			sourceTree = "<group>";
+		};
+		BEA0138B1E7B0D1C0034F6FB /* Groovy GrowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0138C1E7B0D1C0034F6FB /* Groovy_GrowUITests.swift */,
+				BEA0138E1E7B0D1C0034F6FB /* Info.plist */,
+			);
+			path = "Groovy GrowUITests";
+			sourceTree = "<group>";
+		};
+		BEA0139A1E7B0EE70034F6FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA0139F1E7B0EF50034F6FB /* CoreData.framework */,
+				BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */,
+				BEA0139B1E7B0EE70034F6FB /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA013651E7B0D1B0034F6FB /* Groovy Grow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA013911E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy Grow" */;
+			buildPhases = (
+				BEA013621E7B0D1B0034F6FB /* Sources */,
+				BEA013631E7B0D1B0034F6FB /* Frameworks */,
+				BEA013641E7B0D1B0034F6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Groovy Grow";
+			productName = "Groovy Grow";
+			productReference = BEA013661E7B0D1B0034F6FB /* Groovy Grow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA0137C1E7B0D1C0034F6FB /* Groovy GrowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA013941E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowTests" */;
+			buildPhases = (
+				BEA013791E7B0D1C0034F6FB /* Sources */,
+				BEA0137A1E7B0D1C0034F6FB /* Frameworks */,
+				BEA0137B1E7B0D1C0034F6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA0137F1E7B0D1C0034F6FB /* PBXTargetDependency */,
+			);
+			name = "Groovy GrowTests";
+			productName = "Groovy GrowTests";
+			productReference = BEA0137D1E7B0D1C0034F6FB /* Groovy GrowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEA013871E7B0D1C0034F6FB /* Groovy GrowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA013971E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowUITests" */;
+			buildPhases = (
+				BEA013841E7B0D1C0034F6FB /* Sources */,
+				BEA013851E7B0D1C0034F6FB /* Frameworks */,
+				BEA013861E7B0D1C0034F6FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA0138A1E7B0D1C0034F6FB /* PBXTargetDependency */,
+			);
+			name = "Groovy GrowUITests";
+			productName = "Groovy GrowUITests";
+			productReference = BEA013881E7B0D1C0034F6FB /* Groovy GrowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA0135E1E7B0D1B0034F6FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "groovy grow";
+				TargetAttributes = {
+					BEA013651E7B0D1B0034F6FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BEA0137C1E7B0D1C0034F6FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA013651E7B0D1B0034F6FB;
+					};
+					BEA013871E7B0D1C0034F6FB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BEA013651E7B0D1B0034F6FB;
+					};
+				};
+			};
+			buildConfigurationList = BEA013611E7B0D1B0034F6FB /* Build configuration list for PBXProject "Groovy Grow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA0135D1E7B0D1B0034F6FB;
+			productRefGroup = BEA013671E7B0D1B0034F6FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA013651E7B0D1B0034F6FB /* Groovy Grow */,
+				BEA0137C1E7B0D1C0034F6FB /* Groovy GrowTests */,
+				BEA013871E7B0D1C0034F6FB /* Groovy GrowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA013641E7B0D1B0034F6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA013771E7B0D1B0034F6FB /* LaunchScreen.storyboard in Resources */,
+				BEA013741E7B0D1B0034F6FB /* Assets.xcassets in Resources */,
+				BEA0136F1E7B0D1B0034F6FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA0137B1E7B0D1C0034F6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA013861E7B0D1C0034F6FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA013621E7B0D1B0034F6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */,
+				BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */,
+				BEA013A21E7B16210034F6FB /* annotation.swift in Sources */,
+				BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA013791E7B0D1C0034F6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA013821E7B0D1C0034F6FB /* Groovy_GrowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA013841E7B0D1C0034F6FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA0138D1E7B0D1C0034F6FB /* Groovy_GrowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA0137F1E7B0D1C0034F6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA013651E7B0D1B0034F6FB /* Groovy Grow */;
+			targetProxy = BEA0137E1E7B0D1C0034F6FB /* PBXContainerItemProxy */;
+		};
+		BEA0138A1E7B0D1C0034F6FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA013651E7B0D1B0034F6FB /* Groovy Grow */;
+			targetProxy = BEA013891E7B0D1C0034F6FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA0136E1E7B0D1B0034F6FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA013751E7B0D1B0034F6FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA013761E7B0D1B0034F6FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA0138F1E7B0D1C0034F6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA013901E7B0D1C0034F6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA013921E7B0D1C0034F6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Groovy Grow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-Grow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BEA013931E7B0D1C0034F6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Groovy Grow/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-Grow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BEA013951E7B0D1C0034F6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Groovy GrowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-GrowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groovy Grow.app/Groovy Grow";
+			};
+			name = Debug;
+		};
+		BEA013961E7B0D1C0034F6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Groovy GrowTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-GrowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groovy Grow.app/Groovy Grow";
+			};
+			name = Release;
+		};
+		BEA013981E7B0D1C0034F6FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Groovy GrowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-GrowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Groovy Grow";
+			};
+			name = Debug;
+		};
+		BEA013991E7B0D1C0034F6FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Groovy GrowUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-GrowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Groovy Grow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA013611E7B0D1B0034F6FB /* Build configuration list for PBXProject "Groovy Grow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA0138F1E7B0D1C0034F6FB /* Debug */,
+				BEA013901E7B0D1C0034F6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA013911E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy Grow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA013921E7B0D1C0034F6FB /* Debug */,
+				BEA013931E7B0D1C0034F6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEA013941E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA013951E7B0D1C0034F6FB /* Debug */,
+				BEA013961E7B0D1C0034F6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEA013971E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA013981E7B0D1C0034F6FB /* Debug */,
+				BEA013991E7B0D1C0034F6FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEA013701E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEA013711E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodel */,
+			);
+			currentVersion = BEA013711E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodel */;
+			path = Groovy_Grow.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BEA0135E1E7B0D1B0034F6FB /* Project object */;
+}

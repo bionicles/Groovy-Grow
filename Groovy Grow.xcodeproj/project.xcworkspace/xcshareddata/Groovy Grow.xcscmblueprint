@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2D85C5393BD74D7942157386FDAC42E813613F35",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2D85C5393BD74D7942157386FDAC42E813613F35" : 9223372036854775807,
+    "B07F47F69E57100DF2A08B2065E8B7C03B5541F2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "82776CF1-67CA-44B1-BD2E-BCF00949C412",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2D85C5393BD74D7942157386FDAC42E813613F35" : "Groovy-Grow\/",
+    "B07F47F69E57100DF2A08B2065E8B7C03B5541F2" : "..\/.."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Groovy Grow",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Groovy Grow.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bionicles\/Groovy-Grow.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2D85C5393BD74D7942157386FDAC42E813613F35"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bionicles\/thera.py.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B07F47F69E57100DF2A08B2065E8B7C03B5541F2"
+    }
+  ]
+}

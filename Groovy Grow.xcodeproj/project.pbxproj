@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE68C3191E82FBF900F439DB /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C3171E82FBF900F439DB /* Company+CoreDataProperties.swift */; };
+		BE68C31A1E82FBF900F439DB /* ListEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C3181E82FBF900F439DB /* ListEntry+CoreDataProperties.swift */; };
+		BE68C31D1E82FCF100F439DB /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C31B1E82FCF100F439DB /* Company+CoreDataClass.swift */; };
+		BE68C31E1E82FCF100F439DB /* ListEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C31C1E82FCF100F439DB /* ListEntry+CoreDataClass.swift */; };
 		BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */; };
 		BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */; };
 		BEA0136F1E7B0D1B0034F6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */; };
@@ -19,6 +23,9 @@
 		BEA0139E1E7B0EEF0034F6FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */; };
 		BEA013A01E7B0EF50034F6FB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0139F1E7B0EF50034F6FB /* CoreData.framework */; };
 		BEA013A21E7B16210034F6FB /* annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013A11E7B16210034F6FB /* annotation.swift */; };
+		EEA086BA1E7B8A6E00859CCE /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA086B91E7B8A6E00859CCE /* ShoppingListViewController.swift */; };
+		EEA086BC1E7B934600859CCE /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA086BB1E7B934600859CCE /* AddItemTableViewController.swift */; };
+		EEA086C01E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE68C3171E82FBF900F439DB /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE68C3181E82FBF900F439DB /* ListEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BE68C31B1E82FCF100F439DB /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
+		BE68C31C1E82FCF100F439DB /* ListEntry+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BEA013661E7B0D1B0034F6FB /* Groovy Grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Groovy Grow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +68,9 @@
 		BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BEA0139F1E7B0EF50034F6FB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BEA013A11E7B16210034F6FB /* annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotation.swift; sourceTree = "<group>"; };
+		EEA086B91E7B8A6E00859CCE /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		EEA086BB1E7B934600859CCE /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
+		EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +104,10 @@
 		BEA0135D1E7B0D1B0034F6FB = {
 			isa = PBXGroup;
 			children = (
+				BE68C31B1E82FCF100F439DB /* Company+CoreDataClass.swift */,
+				BE68C31C1E82FCF100F439DB /* ListEntry+CoreDataClass.swift */,
+				BE68C3171E82FBF900F439DB /* Company+CoreDataProperties.swift */,
+				BE68C3181E82FBF900F439DB /* ListEntry+CoreDataProperties.swift */,
 				BEA013681E7B0D1B0034F6FB /* Groovy Grow */,
 				BEA013801E7B0D1C0034F6FB /* Groovy GrowTests */,
 				BEA0138B1E7B0D1C0034F6FB /* Groovy GrowUITests */,
@@ -115,6 +133,9 @@
 				BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */,
 				BEA013A11E7B16210034F6FB /* annotation.swift */,
 				BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */,
+				EEA086BB1E7B934600859CCE /* AddItemTableViewController.swift */,
+				EEA086B91E7B8A6E00859CCE /* ShoppingListViewController.swift */,
+				EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */,
 				BEA013731E7B0D1B0034F6FB /* Assets.xcassets */,
 				BEA013751E7B0D1B0034F6FB /* LaunchScreen.storyboard */,
 				BEA013781E7B0D1B0034F6FB /* Info.plist */,
@@ -285,10 +306,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEA086BA1E7B8A6E00859CCE /* ShoppingListViewController.swift in Sources */,
+				BE68C31A1E82FBF900F439DB /* ListEntry+CoreDataProperties.swift in Sources */,
 				BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */,
+				BE68C3191E82FBF900F439DB /* Company+CoreDataProperties.swift in Sources */,
+				EEA086BC1E7B934600859CCE /* AddItemTableViewController.swift in Sources */,
 				BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */,
+				BE68C31E1E82FCF100F439DB /* ListEntry+CoreDataClass.swift in Sources */,
+				EEA086C01E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift in Sources */,
 				BEA013A21E7B16210034F6FB /* annotation.swift in Sources */,
 				BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */,
+				BE68C31D1E82FCF100F439DB /* Company+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +561,7 @@
 				BEA013931E7B0D1C0034F6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEA013941E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +570,7 @@
 				BEA013961E7B0D1C0034F6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEA013971E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +579,7 @@
 				BEA013991E7B0D1C0034F6FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

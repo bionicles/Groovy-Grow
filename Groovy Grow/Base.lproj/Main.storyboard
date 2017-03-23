@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xWf-SA-6c3">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xWf-SA-6c3">
                                 <rect key="frame" x="0.0" y="-1" width="414" height="737"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ip5-Mr-npV">
@@ -38,6 +38,18 @@
                                 </state>
                                 <connections>
                                     <segue destination="ClC-hD-1HM" kind="show" identifier="toMainView" id="lNS-l0-T0U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm5-He-IV6">
+                                <rect key="frame" x="278" y="72" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="0.51261742710000002" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <state key="normal" title="Log In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="p5Q-8J-HnX" kind="presentation" id="Ytj-lT-Lxu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -68,6 +80,31 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="840.57971014492762" y="185.05434782608697"/>
+        </scene>
+        <!--Facebook Login View Controller-->
+        <scene sceneID="yWD-8k-6Pn">
+            <objects>
+                <viewController id="9DJ-sv-dUQ" customClass="FacebookLoginViewController" customModule="Groovy_Grow" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="o6H-zu-AM6"/>
+                        <viewControllerLayoutGuide type="bottom" id="kW6-WB-uBF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h6c-JP-hKQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NHw-0Q-SBD">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="qqv-ij-HkO">
+                            <connections>
+                                <action selector="cancelButtonPressed:" destination="9DJ-sv-dUQ" id="bjQ-Iq-Oj1"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eIh-MQ-v40" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2315.9420289855075" y="-486.68478260869568"/>
         </scene>
         <!--Shopping List View Controller-->
         <scene sceneID="IpX-A3-wZQ">
@@ -227,6 +264,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H6f-4V-vfR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3767.1999999999998" y="194.75262368815595"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Ohf-2R-oP1">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="p5Q-8J-HnX" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NB5-Ci-8Y3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9DJ-sv-dUQ" kind="relationship" relationship="rootViewController" id="v1y-to-6m0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HIy-an-fjA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1408.6956521739132" y="-486.68478260869568"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

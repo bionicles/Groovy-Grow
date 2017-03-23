@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01FEE3F8712E01A2A1FCE0C6 /* Pods_Groovy_GrowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7EE890201D3D8A3809EE43 /* Pods_Groovy_GrowTests.framework */; };
+		7057D57D257A45622DEDA377 /* Pods_Groovy_GrowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6730F4F596AD0CDF22AB3F3 /* Pods_Groovy_GrowUITests.framework */; };
 		BE68C3191E82FBF900F439DB /* Company+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C3171E82FBF900F439DB /* Company+CoreDataProperties.swift */; };
 		BE68C31A1E82FBF900F439DB /* ListEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C3181E82FBF900F439DB /* ListEntry+CoreDataProperties.swift */; };
 		BE68C31D1E82FCF100F439DB /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C31B1E82FCF100F439DB /* Company+CoreDataClass.swift */; };
 		BE68C31E1E82FCF100F439DB /* ListEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C31C1E82FCF100F439DB /* ListEntry+CoreDataClass.swift */; };
 		BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */; };
-		BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */; };
+		BEA0136C1E7B0D1B0034F6FB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0136B1E7B0D1B0034F6FB /* MapViewController.swift */; };
 		BEA0136F1E7B0D1B0034F6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */; };
 		BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEA013701E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld */; };
 		BEA013741E7B0D1B0034F6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA013731E7B0D1B0034F6FB /* Assets.xcassets */; };
@@ -23,9 +25,12 @@
 		BEA0139E1E7B0EEF0034F6FB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */; };
 		BEA013A01E7B0EF50034F6FB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA0139F1E7B0EF50034F6FB /* CoreData.framework */; };
 		BEA013A21E7B16210034F6FB /* annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013A11E7B16210034F6FB /* annotation.swift */; };
+		D49CE66C3648AC72A5BFFB84 /* Pods_Groovy_Grow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08A24A770B1FD38F80ECE44 /* Pods_Groovy_Grow.framework */; };
 		EEA086BA1E7B8A6E00859CCE /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA086B91E7B8A6E00859CCE /* ShoppingListViewController.swift */; };
 		EEA086BC1E7B934600859CCE /* AddItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA086BB1E7B934600859CCE /* AddItemTableViewController.swift */; };
 		EEA086C01E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */; };
+		EEC1B2351E8340EB004D9B9E /* FacebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B2341E8340EB004D9B9E /* FacebookLoginViewController.swift */; };
+		EEC1B2371E834531004D9B9E /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B2361E834531004D9B9E /* CancelButtonDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,13 +51,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1992E9DE6981BF17F146FEE3 /* Pods-Groovy Grow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groovy Grow.release.xcconfig"; path = "Pods/Target Support Files/Pods-Groovy Grow/Pods-Groovy Grow.release.xcconfig"; sourceTree = "<group>"; };
+		2D7EE890201D3D8A3809EE43 /* Pods_Groovy_GrowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groovy_GrowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908BB259E9F63BD5A5E11C95 /* Pods-Groovy GrowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groovy GrowUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Groovy GrowUITests/Pods-Groovy GrowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		956D09C99153C2D1B17AE7AC /* Pods-Groovy Grow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groovy Grow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Groovy Grow/Pods-Groovy Grow.debug.xcconfig"; sourceTree = "<group>"; };
+		A6730F4F596AD0CDF22AB3F3 /* Pods_Groovy_GrowUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groovy_GrowUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA39DEF9555C8EB2E5A49FB9 /* Pods-Groovy GrowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groovy GrowTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Groovy GrowTests/Pods-Groovy GrowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE68C3171E82FBF900F439DB /* Company+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BE68C3181E82FBF900F439DB /* ListEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BE68C31B1E82FCF100F439DB /* Company+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Company+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BE68C31C1E82FCF100F439DB /* ListEntry+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BEA013661E7B0D1B0034F6FB /* Groovy Grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Groovy Grow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA0136B1E7B0D1B0034F6FB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BEA0136E1E7B0D1B0034F6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEA013711E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Groovy_Grow.xcdatamodel; sourceTree = "<group>"; };
 		BEA013731E7B0D1B0034F6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,9 +79,14 @@
 		BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BEA0139F1E7B0EF50034F6FB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		BEA013A11E7B16210034F6FB /* annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = annotation.swift; sourceTree = "<group>"; };
+		C08A24A770B1FD38F80ECE44 /* Pods_Groovy_Grow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groovy_Grow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1B8B4FDA078E50DA827FDBC /* Pods-Groovy GrowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groovy GrowTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Groovy GrowTests/Pods-Groovy GrowTests.release.xcconfig"; sourceTree = "<group>"; };
+		E11F717AD22814D38152AC75 /* Pods-Groovy GrowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groovy GrowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Groovy GrowUITests/Pods-Groovy GrowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA086B91E7B8A6E00859CCE /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
 		EEA086BB1E7B934600859CCE /* AddItemTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewController.swift; sourceTree = "<group>"; };
 		EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
+		EEC1B2341E8340EB004D9B9E /* FacebookLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginViewController.swift; sourceTree = "<group>"; };
+		EEC1B2361E834531004D9B9E /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,7 @@
 				BEA013A01E7B0EF50034F6FB /* CoreData.framework in Frameworks */,
 				BEA0139E1E7B0EEF0034F6FB /* CoreLocation.framework in Frameworks */,
 				BEA0139C1E7B0EE70034F6FB /* MapKit.framework in Frameworks */,
+				D49CE66C3648AC72A5BFFB84 /* Pods_Groovy_Grow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FEE3F8712E01A2A1FCE0C6 /* Pods_Groovy_GrowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7057D57D257A45622DEDA377 /* Pods_Groovy_GrowUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +132,7 @@
 				BEA0138B1E7B0D1C0034F6FB /* Groovy GrowUITests */,
 				BEA013671E7B0D1B0034F6FB /* Products */,
 				BEA0139A1E7B0EE70034F6FB /* Frameworks */,
+				E7B2257CDEE59D7DC0C214A0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,9 +150,11 @@
 			isa = PBXGroup;
 			children = (
 				BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */,
-				BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */,
+				BEA0136B1E7B0D1B0034F6FB /* MapViewController.swift */,
 				BEA013A11E7B16210034F6FB /* annotation.swift */,
 				BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */,
+				EEC1B2361E834531004D9B9E /* CancelButtonDelegate.swift */,
+				EEC1B2341E8340EB004D9B9E /* FacebookLoginViewController.swift */,
 				EEA086BB1E7B934600859CCE /* AddItemTableViewController.swift */,
 				EEA086B91E7B8A6E00859CCE /* ShoppingListViewController.swift */,
 				EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */,
@@ -168,8 +190,24 @@
 				BEA0139F1E7B0EF50034F6FB /* CoreData.framework */,
 				BEA0139D1E7B0EEF0034F6FB /* CoreLocation.framework */,
 				BEA0139B1E7B0EE70034F6FB /* MapKit.framework */,
+				C08A24A770B1FD38F80ECE44 /* Pods_Groovy_Grow.framework */,
+				2D7EE890201D3D8A3809EE43 /* Pods_Groovy_GrowTests.framework */,
+				A6730F4F596AD0CDF22AB3F3 /* Pods_Groovy_GrowUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B2257CDEE59D7DC0C214A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				956D09C99153C2D1B17AE7AC /* Pods-Groovy Grow.debug.xcconfig */,
+				1992E9DE6981BF17F146FEE3 /* Pods-Groovy Grow.release.xcconfig */,
+				BA39DEF9555C8EB2E5A49FB9 /* Pods-Groovy GrowTests.debug.xcconfig */,
+				D1B8B4FDA078E50DA827FDBC /* Pods-Groovy GrowTests.release.xcconfig */,
+				E11F717AD22814D38152AC75 /* Pods-Groovy GrowUITests.debug.xcconfig */,
+				908BB259E9F63BD5A5E11C95 /* Pods-Groovy GrowUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEA013911E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy Grow" */;
 			buildPhases = (
+				2B77F53E287653B9DA0260D4 /* [CP] Check Pods Manifest.lock */,
 				BEA013621E7B0D1B0034F6FB /* Sources */,
 				BEA013631E7B0D1B0034F6FB /* Frameworks */,
 				BEA013641E7B0D1B0034F6FB /* Resources */,
+				421F4C8D35B37D3896A17515 /* [CP] Embed Pods Frameworks */,
+				29C3B4B6ED149EC29C774EEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEA013941E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowTests" */;
 			buildPhases = (
+				CD8CBCCC505AA43670E347C6 /* [CP] Check Pods Manifest.lock */,
 				BEA013791E7B0D1C0034F6FB /* Sources */,
 				BEA0137A1E7B0D1C0034F6FB /* Frameworks */,
 				BEA0137B1E7B0D1C0034F6FB /* Resources */,
+				CA2F455B9ED2D50117308DDC /* [CP] Embed Pods Frameworks */,
+				1588D3835CFA5623A33A673C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEA013971E7B0D1C0034F6FB /* Build configuration list for PBXNativeTarget "Groovy GrowUITests" */;
 			buildPhases = (
+				7969E221987764EE1F5CFA96 /* [CP] Check Pods Manifest.lock */,
 				BEA013841E7B0D1C0034F6FB /* Sources */,
 				BEA013851E7B0D1C0034F6FB /* Frameworks */,
 				BEA013861E7B0D1C0034F6FB /* Resources */,
+				7AACEE4318AF2869F08530E2 /* [CP] Embed Pods Frameworks */,
+				A5272FE87AEEF2954C2277EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -301,6 +348,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1588D3835CFA5623A33A673C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groovy GrowTests/Pods-Groovy GrowTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29C3B4B6ED149EC29C774EEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groovy Grow/Pods-Groovy Grow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B77F53E287653B9DA0260D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		421F4C8D35B37D3896A17515 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groovy Grow/Pods-Groovy Grow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7969E221987764EE1F5CFA96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7AACEE4318AF2869F08530E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groovy GrowUITests/Pods-Groovy GrowUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5272FE87AEEF2954C2277EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groovy GrowUITests/Pods-Groovy GrowUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2F455B9ED2D50117308DDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Groovy GrowTests/Pods-Groovy GrowTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8CBCCC505AA43670E347C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEA013621E7B0D1B0034F6FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -308,13 +493,15 @@
 			files = (
 				EEA086BA1E7B8A6E00859CCE /* ShoppingListViewController.swift in Sources */,
 				BE68C31A1E82FBF900F439DB /* ListEntry+CoreDataProperties.swift in Sources */,
+				EEC1B2351E8340EB004D9B9E /* FacebookLoginViewController.swift in Sources */,
 				BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */,
 				BE68C3191E82FBF900F439DB /* Company+CoreDataProperties.swift in Sources */,
 				EEA086BC1E7B934600859CCE /* AddItemTableViewController.swift in Sources */,
-				BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */,
+				BEA0136C1E7B0D1B0034F6FB /* MapViewController.swift in Sources */,
 				BE68C31E1E82FCF100F439DB /* ListEntry+CoreDataClass.swift in Sources */,
 				EEA086C01E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift in Sources */,
 				BEA013A21E7B16210034F6FB /* annotation.swift in Sources */,
+				EEC1B2371E834531004D9B9E /* CancelButtonDelegate.swift in Sources */,
 				BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */,
 				BE68C31D1E82FCF100F439DB /* Company+CoreDataClass.swift in Sources */,
 			);
@@ -466,10 +653,12 @@
 		};
 		BEA013921E7B0D1C0034F6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 956D09C99153C2D1B17AE7AC /* Pods-Groovy Grow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Groovy Grow/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-Grow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -478,10 +667,12 @@
 		};
 		BEA013931E7B0D1C0034F6FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1992E9DE6981BF17F146FEE3 /* Pods-Groovy Grow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Groovy Grow/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gg.Groovy-Grow";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -490,6 +681,7 @@
 		};
 		BEA013951E7B0D1C0034F6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA39DEF9555C8EB2E5A49FB9 /* Pods-Groovy GrowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +696,7 @@
 		};
 		BEA013961E7B0D1C0034F6FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B8B4FDA078E50DA827FDBC /* Pods-Groovy GrowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +711,7 @@
 		};
 		BEA013981E7B0D1C0034F6FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E11F717AD22814D38152AC75 /* Pods-Groovy GrowUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Groovy GrowUITests/Info.plist";
@@ -531,6 +725,7 @@
 		};
 		BEA013991E7B0D1C0034F6FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908BB259E9F63BD5A5E11C95 /* Pods-Groovy GrowUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Groovy GrowUITests/Info.plist";

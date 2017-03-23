@@ -14,7 +14,7 @@
 		BE68C31D1E82FCF100F439DB /* Company+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C31B1E82FCF100F439DB /* Company+CoreDataClass.swift */; };
 		BE68C31E1E82FCF100F439DB /* ListEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE68C31C1E82FCF100F439DB /* ListEntry+CoreDataClass.swift */; };
 		BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */; };
-		BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */; };
+		BEA0136C1E7B0D1B0034F6FB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA0136B1E7B0D1B0034F6FB /* MapViewController.swift */; };
 		BEA0136F1E7B0D1B0034F6FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */; };
 		BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEA013701E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld */; };
 		BEA013741E7B0D1B0034F6FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA013731E7B0D1B0034F6FB /* Assets.xcassets */; };
@@ -63,7 +63,7 @@
 		BE68C31C1E82FCF100F439DB /* ListEntry+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ListEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
 		BEA013661E7B0D1B0034F6FB /* Groovy Grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Groovy Grow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA0136B1E7B0D1B0034F6FB /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		BEA0136E1E7B0D1B0034F6FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEA013711E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Groovy_Grow.xcdatamodel; sourceTree = "<group>"; };
 		BEA013731E7B0D1B0034F6FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				BEA013691E7B0D1B0034F6FB /* AppDelegate.swift */,
-				BEA0136B1E7B0D1B0034F6FB /* ViewController.swift */,
+				BEA0136B1E7B0D1B0034F6FB /* MapViewController.swift */,
 				BEA013A11E7B16210034F6FB /* annotation.swift */,
 				BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */,
 				EEC1B2361E834531004D9B9E /* CancelButtonDelegate.swift */,
@@ -497,7 +497,7 @@
 				BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */,
 				BE68C3191E82FBF900F439DB /* Company+CoreDataProperties.swift in Sources */,
 				EEA086BC1E7B934600859CCE /* AddItemTableViewController.swift in Sources */,
-				BEA0136C1E7B0D1B0034F6FB /* ViewController.swift in Sources */,
+				BEA0136C1E7B0D1B0034F6FB /* MapViewController.swift in Sources */,
 				BE68C31E1E82FCF100F439DB /* ListEntry+CoreDataClass.swift in Sources */,
 				EEA086C01E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift in Sources */,
 				BEA013A21E7B16210034F6FB /* annotation.swift in Sources */,

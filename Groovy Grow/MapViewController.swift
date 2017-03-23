@@ -16,7 +16,7 @@ import CoreData
 import MapKit
 import UIKit
 
-class MapViewController: UIViewController, CLLocationManagerDelegate, CancelButtonDelegate{
+class MapViewController: UIViewController, CLLocationManagerDelegate, CancelButtonDelegate, MarketListDelegate{
     
     // map
     @IBOutlet weak var mapView: MKMapView!
@@ -179,9 +179,19 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, CancelButt
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toFacebookLogin"{
+            
         let navigationController = segue.destination as! UINavigationController
         let facebookLoginViewController = navigationController.topViewController as! FacebookLoginViewController
-        facebookLoginViewController.delegate = self
+       facebookLoginViewController.delegate = self
+            
+        } else if segue.identifier == "toListMode"{
+            let navigationController = segue.destination as! UINavigationController
+            let listModeTableViewController = navigationController.topViewController as! ListModeTableViewController
+            listModeTableViewController.delegate = self
+            
+            
+        }
         
     }
     
@@ -189,4 +199,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, CancelButt
         print("I'm the hidden controller, BUT I am responding to the cancel button press on the top view controller")
          dismiss(animated: true, completion: nil)
     }
+    
+    func getFarmerMarkets(by controller: UITableViewController, with markets: [NSMutableDictionary]) {
+        var markets = markets
+        print(markets)
+    }
+    
 }

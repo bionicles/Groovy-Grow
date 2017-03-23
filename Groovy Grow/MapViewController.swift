@@ -16,7 +16,7 @@ import CoreData
 import MapKit
 import UIKit
 
-class ViewController: UIViewController, CLLocationManagerDelegate{
+class MapViewController: UIViewController, CLLocationManagerDelegate, CancelButtonDelegate{
     
     // map
     @IBOutlet weak var mapView: MKMapView!
@@ -176,5 +176,17 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        let facebookLoginViewController = navigationController.topViewController as! FacebookLoginViewController
+        facebookLoginViewController.delegate = self
+        
+    }
+    
+    func cancelButtonPressed(by controller: UIViewController) {
+        print("I'm the hidden controller, BUT I am responding to the cancel button press on the top view controller")
+         dismiss(animated: true, completion: nil)
     }
 }

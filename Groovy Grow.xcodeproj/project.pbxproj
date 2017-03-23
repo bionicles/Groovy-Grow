@@ -31,6 +31,8 @@
 		EEA086C01E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */; };
 		EEC1B2351E8340EB004D9B9E /* FacebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B2341E8340EB004D9B9E /* FacebookLoginViewController.swift */; };
 		EEC1B2371E834531004D9B9E /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B2361E834531004D9B9E /* CancelButtonDelegate.swift */; };
+		EEC1B2391E836E7C004D9B9E /* MarketListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B2381E836E7C004D9B9E /* MarketListDelegate.swift */; };
+		EEC1B23B1E836FC2004D9B9E /* ListModeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1B23A1E836FC2004D9B9E /* ListModeTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemTableViewControllerDelegate.swift; sourceTree = "<group>"; };
 		EEC1B2341E8340EB004D9B9E /* FacebookLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginViewController.swift; sourceTree = "<group>"; };
 		EEC1B2361E834531004D9B9E /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
+		EEC1B2381E836E7C004D9B9E /* MarketListDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketListDelegate.swift; sourceTree = "<group>"; };
+		EEC1B23A1E836FC2004D9B9E /* ListModeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListModeTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,10 +157,12 @@
 				BEA0136B1E7B0D1B0034F6FB /* MapViewController.swift */,
 				BEA013A11E7B16210034F6FB /* annotation.swift */,
 				BEA0136D1E7B0D1B0034F6FB /* Main.storyboard */,
+				EEC1B23A1E836FC2004D9B9E /* ListModeTableViewController.swift */,
 				EEC1B2361E834531004D9B9E /* CancelButtonDelegate.swift */,
 				EEC1B2341E8340EB004D9B9E /* FacebookLoginViewController.swift */,
 				EEA086BB1E7B934600859CCE /* AddItemTableViewController.swift */,
 				EEA086B91E7B8A6E00859CCE /* ShoppingListViewController.swift */,
+				EEC1B2381E836E7C004D9B9E /* MarketListDelegate.swift */,
 				EEA086BF1E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift */,
 				BEA013731E7B0D1B0034F6FB /* Assets.xcassets */,
 				BEA013751E7B0D1B0034F6FB /* LaunchScreen.storyboard */,
@@ -493,6 +499,7 @@
 			files = (
 				EEA086BA1E7B8A6E00859CCE /* ShoppingListViewController.swift in Sources */,
 				BE68C31A1E82FBF900F439DB /* ListEntry+CoreDataProperties.swift in Sources */,
+				EEC1B23B1E836FC2004D9B9E /* ListModeTableViewController.swift in Sources */,
 				EEC1B2351E8340EB004D9B9E /* FacebookLoginViewController.swift in Sources */,
 				BEA013721E7B0D1B0034F6FB /* Groovy_Grow.xcdatamodeld in Sources */,
 				BE68C3191E82FBF900F439DB /* Company+CoreDataProperties.swift in Sources */,
@@ -501,6 +508,7 @@
 				BE68C31E1E82FCF100F439DB /* ListEntry+CoreDataClass.swift in Sources */,
 				EEA086C01E7B9BF100859CCE /* AddItemTableViewControllerDelegate.swift in Sources */,
 				BEA013A21E7B16210034F6FB /* annotation.swift in Sources */,
+				EEC1B2391E836E7C004D9B9E /* MarketListDelegate.swift in Sources */,
 				EEC1B2371E834531004D9B9E /* CancelButtonDelegate.swift in Sources */,
 				BEA0136A1E7B0D1B0034F6FB /* AppDelegate.swift in Sources */,
 				BE68C31D1E82FCF100F439DB /* Company+CoreDataClass.swift in Sources */,

@@ -1,0 +1,6 @@
+framework module Pods_Groovy_Grow {
+  umbrella header "Pods-Groovy Grow-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,3 +7,11 @@
 //
 
 import Foundation
+import UIKit
+
+protocol CancelButtonDelegate: class {
+    
+    func cancelButtonPressed(by controller: UIViewController)
+    
+    
+}

@@ -25,31 +25,40 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="xWf-SA-6c3">
                                 <rect key="frame" x="0.0" y="-1" width="414" height="737"/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ip5-Mr-npV">
-                                <rect key="frame" x="278" y="686" width="120" height="30"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="0.51261742714723924" colorSpace="calibratedRGB"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ip5-Mr-npV">
+                                <rect key="frame" x="332" y="652" width="66" height="64"/>
+                                <color key="backgroundColor" red="0.49428844451904297" green="0.78893643617630005" blue="0.19365760684013367" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="Cfy-9p-hYi"/>
-                                    <constraint firstAttribute="height" constant="30" id="UZ7-km-N6V"/>
+                                    <constraint firstAttribute="width" constant="66" id="Cfy-9p-hYi"/>
+                                    <constraint firstAttribute="height" constant="64" id="UZ7-km-N6V"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <state key="normal" title="Make a list">
-                                    <color key="titleColor" red="1" green="0.98863813769999997" blue="0.98304901830000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" image="list">
+                                    <color key="titleColor" red="0.47492134571075439" green="0.76627087593078613" blue="0.18659704923629761" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ClC-hD-1HM" kind="show" identifier="toMainView" id="lNS-l0-T0U"/>
+                                    <segue destination="ClC-hD-1HM" kind="show" identifier="toShoppingList" id="rB1-ub-60J"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm5-He-IV6">
-                                <rect key="frame" x="278" y="72" width="120" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h0b-0s-Mkp">
+                                <rect key="frame" x="20" y="686" width="89" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="0.51261742710000002" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
-                                <state key="normal" title="Log In">
+                                <color key="backgroundColor" red="0.49648815393447876" green="0.7890130877494812" blue="0.19385960698127747" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="List Mode">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2Tn-vn-OD3" kind="presentation" identifier="toListMode" id="tkK-Ob-pqw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zm5-He-IV6">
+                                <rect key="frame" x="341" y="72" width="57" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="user">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="p5Q-8J-HnX" kind="presentation" id="Ytj-lT-Lxu"/>
+                                    <segue destination="p5Q-8J-HnX" kind="presentation" identifier="toFacebookLogin" id="Ytj-lT-Lxu"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -80,6 +89,35 @@
                 </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="840.57971014492762" y="185.05434782608697"/>
+        </scene>
+        <!--List Mode Table View Controller-->
+        <scene sceneID="lKS-3m-mzR">
+            <objects>
+                <tableViewController id="Hue-dy-xVr" customClass="ListModeTableViewController" customModule="Groovy_Grow" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="102" sectionHeaderHeight="28" sectionFooterHeight="28" id="68h-EJ-ROd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="102" id="ZxT-5S-K4i">
+                                <rect key="frame" x="0.0" y="28" width="414" height="102"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZxT-5S-K4i" id="qB3-ko-EgL">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="101"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Hue-dy-xVr" id="Ccx-dQ-rM2"/>
+                            <outlet property="delegate" destination="Hue-dy-xVr" id="5Ky-rx-TDE"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="RhR-tb-hZX"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kge-FZ-h0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1723.1884057971015" y="976.63043478260875"/>
         </scene>
         <!--Facebook Login View Controller-->
         <scene sceneID="yWD-8k-6Pn">
@@ -283,7 +321,29 @@
             </objects>
             <point key="canvasLocation" x="1408.6956521739132" y="-486.68478260869568"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sum-8F-JvU">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Tn-vn-OD3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QHx-gf-jyH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Hue-dy-xVr" kind="relationship" relationship="rootViewController" id="Y6J-TS-haa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7fV-iE-4L2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815.94202898550736" y="976.63043478260875"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="list" width="128" height="128"/>
+        <image name="user" width="128" height="128"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="179-k2-eHv"/>
     </inferredMetricsTieBreakers>
